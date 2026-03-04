@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="UNPWNED" width="140" />
+  <img src="logo.png" alt="UNPWNED" width="240" />
 
   # UNPWNED
 
