@@ -1,4 +1,6 @@
-# UNPWNED - AI Security Scanner for Web Apps
+<div align="center">
+  <img src="logo.png" alt="UNPWNED" width="500" />
+</div>
 
 **[unpwned.io](https://unpwned.io)** - Scans your Next.js and React app for real vulnerabilities and generates AI-assisted fix prompts. Built for developers who ship fast and want to stay secure.
 
