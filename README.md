@@ -1,6 +1,6 @@
-# Raz Azulay — Building in Public
+# Raz Azulay - Building in Public
 
-Founder of **[UNPWNED](https://unpwned.io)** — AI-powered security scanner for vibe-coders and indie hackers.
+Founder of **[UNPWNED](https://unpwned.io)** - AI-powered security scanner for vibe-coders and indie hackers.
 
 Scans Next.js and React apps for real vulnerabilities and generates AI-assisted fix prompts. Built for developers who ship fast and want to stay secure.
 
