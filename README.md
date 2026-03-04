@@ -1,7 +1,7 @@
 <div align="center">
   <img src="logo.png" alt="UNPWNED" width="240" />
 
-  # UNPWNED
+  <img src="title.svg" alt="UNPWNED" />
 
   **[unpwned.io](https://unpwned.io)** - AI security scanner for vibe-coders and indie hackers.
 
