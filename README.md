@@ -1,8 +1,12 @@
 <div align="center">
-  <img src="logo.png" alt="UNPWNED" width="500" />
-</div>
+  <img src="logo.png" alt="UNPWNED" width="140" />
 
-**[unpwned.io](https://unpwned.io)** - Scans your Next.js and React app for real vulnerabilities and generates AI-assisted fix prompts. Built for developers who ship fast and want to stay secure.
+  # UNPWNED
+
+  **[unpwned.io](https://unpwned.io)** - AI security scanner for vibe-coders and indie hackers.
+
+  Scans your Next.js and React app for real vulnerabilities and generates AI-assisted fix prompts.
+</div>
 
 ---
 
