@@ -1,25 +1,18 @@
-# Raz Azulay - Building in Public
+# UNPWNED - AI Security Scanner for Web Apps
 
-Founder of **[UNPWNED](https://unpwned.io)** - AI-powered security scanner for vibe-coders and indie hackers.
-
-Scans Next.js and React apps for real vulnerabilities and generates AI-assisted fix prompts. Built for developers who ship fast and want to stay secure.
+**[unpwned.io](https://unpwned.io)** - Scans your Next.js and React app for real vulnerabilities and generates AI-assisted fix prompts. Built for developers who ship fast and want to stay secure.
 
 ---
 
-## Products
+## Other Projects
 
 | Project | Description | Status |
 |---|---|---|
-| [UNPWNED](https://unpwned.io) | AI security scanner for web apps | Live |
 | [Quor](https://quor.app) | Quote generation with digital signatures | Live |
-| [FlowEco](https://floweco.app) | Personal finance management (Hebrew) | Archived |
+| [FlowEco](https://floweco.app) | Personal finance management (Hebrew) | Live |
 
 ---
 
-## Stack
-
-Next.js · TypeScript · Supabase · Tailwind CSS · Vercel
-
----
+**Stack:** Next.js · TypeScript · Supabase · Tailwind CSS · Vercel
 
 Built in Ofakim, Israel.
