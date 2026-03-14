@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="UNPWNED logo" width="240" />
+  <img src="ninja.png" alt="UNPWNED logo" width="440" />
   <br/>
   <img src="title.png" alt="UNPWNED" />
 
