@@ -1,10 +1,7 @@
 <div align="center">
-  <img src="ninja.png" alt="UNPWNED" width="360" />
-  <br/>
-  <img src="title.png" alt="UNPWNED" />
+  <img src="banner.png" alt="UNPWNED: website security scanner for builders" width="100%" />
   <br/><br/>
 
-  <strong>Website security scanner for builders.</strong><br/>
   Scan a live site or a GitHub repo, see what is exposed, and get a fix prompt for the AI tool you already use.<br/><br/>
 
   <a href="https://www.unpwned.io"><img src="https://img.shields.io/badge/UNPWNED.IO-00ff88?style=for-the-badge&logoColor=black" alt="UNPWNED.IO" /></a>
@@ -14,6 +11,12 @@
   <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/HEADERS-A+-3b82f6?style=for-the-badge" alt="Security headers A+" /></a>
   &nbsp;
   <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/OWASP_ASVS-SELF--ASSESSED-eab308?style=for-the-badge" alt="OWASP ASVS self-assessed" /></a>
+
+  <br/><br/>
+
+  <img src="demo.svg" alt="Terminal recording: npx unpwned scan unpwned.io returns 100 out of 100, grade A+" width="680" />
+  <br/>
+  <sub>Results of a real scan of unpwned.io with the open source <a href="https://github.com/razazu/unpwned-cli">CLI</a>.</sub>
 
 </div>
 
