@@ -12,7 +12,7 @@
   &nbsp;
   <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/OWASP_ASVS-SELF--ASSESSED-eab308?style=for-the-badge" alt="OWASP ASVS self-assessed" /></a>
 
-  <br/><br/>
+  <br/>
 
   <img src="demo.svg" alt="Terminal recording: npx unpwned scan unpwned.io returns 100 out of 100, grade A+" width="680" />
   <br/>
