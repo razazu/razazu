@@ -5,7 +5,7 @@
   <br/><br/>
 
   <strong>Automated security scanning for web applications.</strong><br/>
-  30+ parallel checks. AI-powered findings. Fix prompts for your IDE.<br/><br/>
+  37+ parallel checks. AI-powered findings. Fix prompts for your IDE.<br/><br/>
 
   <a href="https://www.unpwned.io"><img src="https://img.shields.io/badge/UNPWNED.IO-00ff88?style=for-the-badge&logoColor=black" alt="UNPWNED.IO" /></a>
   &nbsp;
@@ -23,7 +23,7 @@
 
 UNPWNED scans live websites for real security vulnerabilities and generates actionable fix instructions. Paste a URL, get a scored security report in under 5 minutes.
 
-- **30+ security checks** run in parallel: SSL/TLS, headers, exposed secrets, DNS, CORS, open ports, cookies, malware, Supabase RLS, API auth
+- **37+ security checks** run in parallel: SSL/TLS, headers, exposed secrets, DNS, CORS, open ports, cookies, malware, Supabase RLS, API auth
 - **GitHub repo scanner** detects 34 hardcoded secret patterns across your codebase
 - **AI-powered findings** with severity scoring and plain-English explanations
 - **Fix prompts tailored to your IDE**: Claude, Cursor, Bolt, Lovable, Copilot, and 10 more
@@ -35,7 +35,7 @@ UNPWNED scans live websites for real security vulnerabilities and generates acti
 ## How It Works
 
 ```
-1. Paste your URL        -->  30+ scanners run in parallel
+1. Paste your URL        -->  37+ scanners run in parallel
 2. AI analyzes results   -->  Severity-scored findings with business impact
 3. Copy fix prompt       -->  Paste into Claude/Cursor/Bolt and ship the fix
 ```
@@ -55,21 +55,11 @@ UNPWNED scans live websites for real security vulnerabilities and generates acti
 
 <br/>
 
-## Other Projects
-
-| Project | What it does |
-|---------|-------------|
-| [UNPWNED](https://www.unpwned.io) | AI security scanner for web applications |
-| [Quor](https://quor.app) | Quote generation with legally-binding digital signatures |
-| [FlowEco](https://floweco.app) | Financial management platform (Hebrew market) |
-
-<br/>
-
 ---
 
 <div align="center">
   <strong>Raz Azulay</strong><br/>
-  Full-stack developer. Building cybersecurity tools.<br/>
+  Founder of UNPWNED. Building cybersecurity tools.<br/>
   Ofakim, Israel<br/><br/>
   <a href="https://www.unpwned.io">unpwned.io</a>
 </div>
