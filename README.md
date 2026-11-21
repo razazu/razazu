@@ -4,16 +4,16 @@
   <img src="title.png" alt="UNPWNED" />
   <br/><br/>
 
-  <strong>Automated security scanning for web applications.</strong><br/>
-  37+ parallel checks. AI-powered findings. Fix prompts for your IDE.<br/><br/>
+  <strong>Website security scanner for builders.</strong><br/>
+  Scan a live site or a GitHub repo, see what is exposed, and get a fix prompt for the AI tool you already use.<br/><br/>
 
   <a href="https://www.unpwned.io"><img src="https://img.shields.io/badge/UNPWNED.IO-00ff88?style=for-the-badge&logoColor=black" alt="UNPWNED.IO" /></a>
   &nbsp;
-  <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/SSL_LABS-A+-22c55e?style=for-the-badge" alt="SSL A+" /></a>
+  <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/SSL_LABS-A+-22c55e?style=for-the-badge" alt="SSL Labs A+" /></a>
   &nbsp;
-  <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/PEN_TESTED-VERIFIED-3b82f6?style=for-the-badge" alt="Pen Tested" /></a>
+  <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/HEADERS-A+-3b82f6?style=for-the-badge" alt="Security headers A+" /></a>
   &nbsp;
-  <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/OWASP_TOP_10-TESTED-eab308?style=for-the-badge" alt="OWASP" /></a>
+  <a href="https://www.unpwned.io/security"><img src="https://img.shields.io/badge/OWASP_ASVS-SELF--ASSESSED-eab308?style=for-the-badge" alt="OWASP ASVS self-assessed" /></a>
 
 </div>
 
@@ -21,24 +21,59 @@
 
 ## What UNPWNED Does
 
-UNPWNED scans live websites for real security vulnerabilities and generates actionable fix instructions. Paste a URL, get a scored security report in under 5 minutes.
+UNPWNED looks at your app from the outside, the way an attacker does, and turns what it finds into instructions your AI coding tool can act on.
 
-- **37+ security checks** run in parallel: SSL/TLS, headers, exposed secrets, DNS, CORS, open ports, cookies, malware, Supabase RLS, API auth
-- **GitHub repo scanner** detects 34 hardcoded secret patterns across your codebase
-- **AI-powered findings** with severity scoring and plain-English explanations
-- **Fix prompts tailored to your IDE**: Claude, Cursor, Bolt, Lovable, Copilot, and 10 more
-- **Continuous monitoring** with daily/weekly scans and Slack/Discord alerts
-- **Security score tracking** over time to catch regressions before users do
+- **Free scan, no signup**: 149 checks on any public site in a couple of minutes
+- **Verified Deep Scan**: up to 702 configured checks across 33 coverage scanners once you prove you own the domain ([current check list](https://www.unpwned.io/checks))
+- **Coverage**: SSL/TLS, security headers, exposed secrets and config files, Supabase and Firebase access, API routes, CORS, DNS and email authentication, open ports, version-linked CVEs, public cloud buckets
+- **AI fix prompts**: redacted, finding-specific instructions shaped for 15 tools, including Claude, Cursor, ChatGPT, Copilot, Lovable, Bolt and v0
+- **Re-scan to prove the fix**: before and after scores, with new regressions counted
+- **Monitoring and CVE Radar**: scheduled scans, alerts to Slack, Discord or a webhook, and a live view of the CVEs that are actually being exploited (CISA KEV and EPSS)
+- **GitHub repo scanning**: 49 credential patterns, CVE lookups against OSV, GHSA and NVD, read-only OAuth, and auto-created GitHub Issues
 
 <br/>
 
 ## How It Works
 
 ```
-1. Paste your URL        -->  37+ scanners run in parallel
-2. AI analyzes results   -->  Severity-scored findings with business impact
-3. Copy fix prompt       -->  Paste into Claude/Cursor/Bolt and ship the fix
+1. Scan      -->  Paste a URL. Read-only, no signup.
+2. Report    -->  Prioritized findings with a security score.
+3. AI fix    -->  Copy the fix prompt into Claude, Cursor or any AI tool.
+4. Re-scan   -->  Prove the fix and catch regressions.
 ```
+
+<br/>
+
+## Free Tools
+
+No signup. Results are shown to you and not stored.
+
+| Tool | What it does |
+|------|--------------|
+| [Agent Skill Scanner](https://www.unpwned.io/skill-scanner) | Checks a Claude Code or agent skill for hidden instructions, secret exfiltration and risky scripts before you install it. Reads the files, never runs them. |
+| [SSL Certificate Checker](https://www.unpwned.io/tools/ssl-checker) | Certificate validity, protocol support and security grade |
+| [Email Security Checker](https://www.unpwned.io/tools/email-security) | SPF, DKIM and DMARC records |
+| [DNS Security Checker](https://www.unpwned.io/tools/dns-security) | DNSSEC, CAA records, nameservers and DNS health |
+| [security.txt Validator](https://www.unpwned.io/tools/security-txt) | Validates a security.txt file against RFC 9116 |
+
+<br/>
+
+## Open Source
+
+| Project | What it is |
+|---------|------------|
+| [unpwned-cli](https://github.com/razazu/unpwned-cli) | Website security scanner in your terminal: `npx unpwned scan yoursite.com` |
+| [unpwned-action](https://github.com/razazu/unpwned-action) | GitHub Action that scans on every push and fails the build on critical findings |
+| [slopsquat-guard](https://github.com/razazu/slopsquat-guard) | Claude Code hook that blocks AI-hallucinated and slopsquatted npm and pip packages before they install |
+| [unpwned-skill-scanner](https://github.com/razazu/unpwned-skill-scanner) | Review checklist, eight exercises and a worksheet for vetting agent skills. Companion to the free Skill Scanner. |
+
+<br/>
+
+## Research
+
+- **[Tripwire](https://www.unpwned.io/tripwire)**: fake vulnerabilities planted on our own site, and a running log of who comes looking
+- **[Scan data](https://www.unpwned.io/data)**: what real scans find across the web, updated continuously
+- **[Agent Proof](https://www.unpwned.io/agent-proof)**: a boundary-assessment program for AI agent builders, currently in preparation
 
 <br/>
 
@@ -62,4 +97,10 @@ UNPWNED scans live websites for real security vulnerabilities and generates acti
   Founder of UNPWNED. Building cybersecurity tools.<br/>
   Ofakim, Israel<br/><br/>
   <a href="https://www.unpwned.io">unpwned.io</a>
+  &nbsp;·&nbsp;
+  <a href="https://x.com/azulay_raz">X</a>
+  &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/razazulay">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.youtube.com/@UnpwnedIO">YouTube</a>
 </div>
